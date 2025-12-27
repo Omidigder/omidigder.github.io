@@ -1,0 +1,96 @@
+/* ===== General Styles ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8; /* light background */
+  color: #333;
+}
+
+/* ===== Header / Hero Section ===== */
+.hero {
+  background-color: #1e3a8a; /* deep blue background */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 5px solid #0f172a;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0 0 10px 0;
+}
+
+.hero .subtitle {
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+.hero .affiliation {
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #0f172a; /* darker frame */
+  padding: 12px 0;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
+
+/* ===== Section Styling ===== */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  border: 2px solid #cbd5e1;
+}
+
+/* Section headings */
+.section h2 {
+  border-bottom: 3px solid #1e3a8a;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Lists inside sections */
+.section ul {
+  list-style: disc inside;
+}
+
+/* ===== Contact Section ===== */
+#contact a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #2563eb;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0f172a;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
